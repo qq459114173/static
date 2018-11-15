@@ -1,0 +1,121 @@
+@aColor: #333333;
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    overflow-x: hidden; //隐藏X轴滚动条
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: @aColor;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* 版心样式 */
+#demon {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+//公有导航栏样式
+#nav {
+    box-shadow: -3px 0px 8px 2px rgba(0, 0, 0, 0.37);
+    background-color: rgba(255, 255, 255, 1);
+    width: 1600px;
+    height: 106px;
+    padding-left: 200px;
+    box-sizing: border-box;
+    position: absolute;
+    left: -200px;
+    top: 15px;
+    z-index: 1;
+
+    >.logo {
+        float: left;
+
+        h1 {
+            width: 58px;
+            height: 58px;
+            background: url(../picture/1a_03.png);
+            margin: 0;
+            float: left;
+            margin-top: 29px;
+        }
+
+        >span {
+            font-size: 30px;
+            color: #f6ae35;
+            margin-left: 10px;
+            line-height: 116px;
+        }
+    }
+
+    >ul {
+        float: left;
+        margin-left: 20px;
+        margin-top: 40px;
+
+        >li {
+            float: left;
+            width: 130px;
+            height: 49px;
+            margin-right: 20px;
+
+            >a {
+                display: block;
+                width: 130px;
+                height: 49px;
+                line-height: 49px;
+                text-align: center;
+                color: #ffca00;
+                font-size: 14px;
+                font-weight: 600;
+
+                &:hover {
+                    border: 2px solid #f6ae35;
+                    background-color: #f6ae358f;
+                    color: #fff;
+                    border-radius: 30px;
+                    transition: .4s;
+                }
+            }
+        }
+    }
+}
+
+//公共尾部样式
+#footer {
+    position: absolute;
+    top: 2470px;
+    background-color: rgba(46, 42, 39, 1);
+    width: 1583px;
+    height: 50px;
+    left: -193px;
+
+    >.box {
+        width: 1200px;
+        margin: 0 auto;
+        font-size: 14px;
+        color: #fff;
+        line-height: 50px;
+        height: 50px;
+
+        >a {
+            margin-left: 10px;
+            color: #fff;
+        }
+    }
+}

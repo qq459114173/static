@@ -1,0 +1,443 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    overflow-x: hidden; //隐藏X轴滚动条
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#demon {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+#nav {
+    position: fixed !important;
+    top: 10px;
+    left: 200px;
+    z-index: 999;
+    width: 100%;
+
+    >.logo {
+        float: left;
+
+        h1 {
+            width: 58px;
+            height: 58px;
+            background: url(../picture/1a_03.png);
+            margin: 0;
+        }
+    }
+
+    >ul {
+        width: 1222px;
+        height: 60px;
+        margin-left: 120px;
+
+        >li {
+            float: left;
+            width: 130px;
+            height: 49px;
+            margin-right: 25px;
+
+            >a {
+                display: block;
+                width: 130px;
+                height: 49px;
+                line-height: 49px;
+                text-align: center;
+                color: #ffca00;
+                font-size: 14px;
+                font-weight: 600;
+
+                &:hover {
+                    border: 2px solid #f6ae35;
+                    background-color: #f6ae358f;
+                    color: #fff;
+                    border-radius: 30px;
+                    transition: .4s;
+                }
+            }
+        }
+    }
+}
+
+//小圆点样式
+#fp-nav {
+    >ul {
+        >li {
+            right: 30px;
+            margin-top: 25px;
+
+            a {
+                &.active {
+                    border: 1px solid #fff;
+                    padding: 3px;
+                    border-radius: 50%;
+
+                    >span {
+                        width: 13px;
+                        height: 13px;
+                        line-height: 13px;
+                        text-align: center;
+                    }
+                }
+
+                span {
+                    width: 13px;
+                    height: 13px;
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+}
+
+//第一屏
+.section1 {
+    background: url(http://www.jiaju16888.cn/img/1_01.jpg) no-repeat center;
+
+    .box1 {
+        position: absolute;
+        top: 200px;
+        left: 210px;
+
+        >img {
+            display: block;
+            margin-top: 40px;
+        }
+
+        >.G120 {
+            width: 1058px;
+            height: 103px;
+            animate-duration: .5s;
+            -webkit-animate-duration: .5s;
+        }
+
+        >.G121 {
+            width: 1043px;
+            height: 76px;
+            animation-delay: 0.8s;
+            -webkit-animation-delay: 0.8s
+        }
+
+        >a {
+            display: block;
+            margin-top: 40px;
+            width: 184px;
+            height: 50px;
+            animation-delay: 1.2s;
+            -webkit-animation-delay: 1.2s;
+
+            &:hover {
+                background-color: #dc4625;
+                color: #fff;
+            }
+
+            >.a1 {
+                width: 184px;
+                height: 50px;
+            }
+        }
+    }
+}
+
+//第二屏
+.section2 {
+    background: url(http://www.jiaju16888.cn/img/2_10.jpg) no-repeat center;
+
+    .box2 {
+        >.left {
+            float: left;
+
+            >.g1 {
+                position: absolute;
+                top: 100px;
+                left: 200px;
+                width: 562px;
+                height: 374px;
+            }
+
+            >.g3 {
+                position: absolute;
+                top: 430px;
+                left: 420px;
+                width: 480px;
+                height: 236px;
+                z-index: 1;
+            }
+        }
+
+        >.right {
+            float: right;
+            position: absolute;
+            top: 170px;
+            right: 180px;
+
+            >.title-img {
+                width: 207px;
+                height: 26px;
+            }
+
+            span {
+                display: block;
+                font-size: 72px;
+                color: #222;
+                margin: 20px 0 10px -160px;
+                animation-delay: 0.5s;
+                -webkit-animation-delay: 0.5s
+            }
+
+            >.b-09 {
+                width: 50px;
+                height: 2px;
+            }
+
+            >p {
+                width: 410px;
+                line-height: 2;
+                animation-delay: 1.2s;
+                -webkit-animation-delay: 1.2s
+            }
+
+            a {
+                margin-left: -10px;
+                margin-top: 10px;
+                width: 184px;
+                height: 50px;
+                display: block;
+                animation-delay: 1.5s;
+                -webkit-animation-delay: 1.5s;
+
+                &:hover {
+                    background-color: #dc4625;
+                    color: #fff;
+                }
+
+                >.c-03 {
+                    width: 184px;
+                    height: 50px;
+                }
+            }
+        }
+    }
+}
+
+//第三屏
+.section3 {
+    background: url(http://www.jiaju16888.cn/img/3_02.jpg) no-repeat center;
+
+    .box3 {
+        >.left {
+            float: left;
+            position: absolute;
+            left: 340px;
+            top: 230px;
+
+            >.title-img {
+                margin-left: 80px;
+                animation-delay: 1.5s;
+                -webkit-animation-delay: 1.5s;
+            }
+
+            >span {
+                font-size: 72px;
+                color: #fff;
+                display: block;
+                margin-top: 20px;
+                animation-delay: 1.8s;
+                -webkit-animation-delay: 1.8s;
+            }
+
+            >p {
+                color: #fff;
+                line-height: 20px;
+                animation-delay: 2.2s;
+                -webkit-animation-delay: 2.2s;
+            }
+
+            a {
+                display: block;
+                width: 184px;
+                height: 50px;
+                margin-top: 80px;
+                animation-delay: 2.5s;
+                -webkit-animation-delay: 2.5s;
+
+                &:hover {
+                    background-color: #dc4625;
+                }
+
+                >.c-03 {}
+            }
+        }
+
+        >.right {
+            float: right;
+
+            >.b3 {
+                width: 478px;
+                height: 242px;
+                position: absolute;
+                top: 100px;
+                left: 200px;
+                animation-delay: 0.5s;
+                -webkit-animation-delay: 0.5s;
+                animation-duration: 1s;
+                -webkit-animation-duration: 1s
+            }
+
+            >.g6 {
+                width: 591px;
+                height: 429px;
+                position: absolute;
+                top: 240px;
+                right: 200px;
+                animation-delay: 1s;
+                -webkit-animation-delay: 1s;
+                animation-duration: 1.5s;
+                -webkit-animation-duration: 1.5s
+            }
+        }
+    }
+}
+
+//第四屏
+.section4 {
+    .box4 {
+        >.right {
+            float: right;
+
+            >.b3 {
+                width: 1205px;
+                height: 946px;
+                position: absolute;
+                right: -180px;
+                top: 80px;
+                animation-duration: 1s;
+                -webkit-animation-duration: 1s
+            }
+        }
+
+        >.left {
+            float: left;
+            position: absolute;
+            left: 280px;
+            top: 210px;
+
+            >.title-img {
+                margin-left: 60px;
+                animation-delay: 1s;
+                -webkit-animation-delay: 1s;
+            }
+
+            >span {
+                margin-top: 20px;
+                font-size: 72px;
+                color: #fff;
+                display: block;
+                animation-delay: 1.5s;
+                -webkit-animation-delay: 1.5s;
+            }
+
+            >.b-09 {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            >p {
+                color: #fff;
+                animation-delay: 1.8s;
+                -webkit-animation-delay: 1.8s;
+            }
+
+            >a {
+                display: block;
+                margin-top: 40px;
+                width: 184px;
+                height: 50px;
+                animation-delay: 2.2s;
+                -webkit-animation-delay: 2.2s;
+
+                &:hover {
+                    background-color: #ccc;
+                }
+            }
+        }
+    }
+}
+
+//第五屏
+.section5 {
+    background: url(http://www.jiaju16888.cn/img/5_02.jpg) no-repeat center;
+
+    .box5 {
+        >.right {
+            float: right;
+
+            >.b3 {
+                position: absolute;
+                right: 205px;
+                top: 440px;
+                width: 505px;
+                height: 242px;
+                animation-delay: 2.2s;
+                -webkit-animation-delay: 2.2s;
+                animation-duration: 1.5s;
+                -webkit-animation-duration: 1.5s;
+            }
+        }
+
+        >.left {
+            float: left;
+            position: absolute;
+            top: 230px;
+            left: 200px;
+
+            >.title-img {
+                margin-left: 80px;
+                margin-bottom: 80px;
+                animation-duration: 1.5s;
+                -webkit-animation-duration: 1.5s;
+            }
+
+            >span {
+                width: 630px;
+                display: block;
+                color: #fff;
+                line-height: 2;
+                margin-bottom: 40px;
+                animation-delay: 1s;
+                -webkit-animation-delay: 1s;
+                animation-duration: 1s;
+                -webkit-animation-duration: 1s;
+            }
+
+            >a {
+                animation-delay: 2s;
+                -webkit-animation-delay: 2s;
+                width: 184px;
+                height: 50px;
+                display: block;
+
+                &:hover {
+                    background-color: #dc4625;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,166 @@
+@import 'base.less';
+
+#main {
+    >#banner {
+        text-align: center;
+        position: absolute;
+        left: -360px;
+        top: 120px;
+
+        >.button {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 135px;
+            display: block;
+            width: 148px;
+            height: 36px;
+            line-height: 36px;
+            text-align: center;
+            color: #fff;
+            border: 1px solid #fff;
+
+            &:hover {
+                background-color: #dc4625;
+            }
+        }
+    }
+
+    >.content {
+        position: absolute;
+        top: 325px;
+        left: 95px;
+        z-index: 1;
+        width: 1200px;
+
+
+        >.pull_left {
+            width: 333px;
+            height: 396px;
+            background-color: rgba(243, 243, 243, 0.8);
+            padding: 40px 0px 20px;
+            color: #231d33;
+
+            >.title {
+                display: block;
+                font-size: 18px;
+                color: #c2995b;
+                text-align: center;
+                line-height: 3;
+            }
+
+            >.title-2 {
+                font-size: 18px;
+                color: #696969;
+                text-align: center;
+                display: block;
+                margin-bottom: 15px;
+            }
+
+            >ul {
+                padding: 0;
+
+                li {
+                    height: 80px;
+                    width: 100%;
+                    border-top: 1px solid #d5d5d5;
+                    border-bottom: 1px solid #d5d5d5;
+                    padding-left: 30px;
+
+                    &:nth-child(2) {
+                        span {
+                            margin: 0;
+                            line-height: 80px;
+                        }
+                    }
+
+                    &:nth-child(3) {
+                        span {
+                            font-size: 12px !important;
+                        }
+                    }
+
+                    a {
+                        height: 80px;
+                        width: 50px;
+                        text-align: center;
+                        display: block;
+                        line-height: 80px;
+
+                        >i {
+                            font-size: 24px;
+                            color: rgba(194, 153, 91, 1);
+                        }
+                    }
+
+                    span {
+                        display: block;
+                        font-size: 14px;
+                        margin-top: 12px;
+                    }
+                }
+            }
+        }
+
+        >.pull-right {
+            width: 500px;
+            position: absolute;
+            right: 200px;
+            top: 0;
+
+            >form {
+                >.title {
+                    font-size: 18px;
+                    color: #c2995b;
+                    font-weight: 600;
+                }
+
+                >.Text {
+                    margin-top: 40px;
+                    border: 1px solid rgba(228, 228, 228, 1);
+                    padding: 5px 5px 0px;
+                    resize: none;
+                    width: 500px;
+                    height: 120px;
+
+                    &::-webkit-input-placeholder {
+                        color: #cdcdcd;
+                    }
+                }
+
+                >.InputText {
+                    width: 333px;
+                    display: block;
+                    padding-left: 20px;
+                    height: 30px;
+                    border: 1px solid #f0f0f0;
+                    margin-top: 10px;
+
+                    &::-webkit-input-placeholder {
+                        color: #cdcdcd;
+                    }
+                }
+
+                >.code {
+                    width: 130px;
+                }
+
+                >.button {
+                    width: 120px;
+                    height: 30px;
+                    background-color: rgba(194, 153, 91, 1);
+                    margin-top: 10px;
+                    font-size: 14px;
+                    text-align: center;
+                    color: #fff;
+                    line-height: 30px;
+                }
+            }
+        }
+
+    }
+}
+
+#footer {
+    top: 1210px;
+}

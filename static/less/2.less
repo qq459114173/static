@@ -1,0 +1,155 @@
+@import 'base.less';
+
+//内容部分
+#main {
+    >#banner {
+        text-align: center;
+        position: absolute;
+        left: -360px;
+        top: 120px;
+
+        >.button {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 135px;
+            display: block;
+            width: 148px;
+            height: 36px;
+            line-height: 36px;
+            text-align: center;
+            color: #fff;
+            border: 1px solid #fff;
+
+            &:hover {
+                background-color: #dc4625;
+            }
+        }
+    }
+
+    >.content {
+        position: absolute;
+        top: 800px;
+        width: 1200px;
+        height: 800px;
+
+        >.title {
+            position: absolute;
+            left: 42%;
+            top: 40px;
+            transform: translateX(-50%);
+
+            >a {
+                float: left;
+                border: 1px solid rgba(0, 0, 0, 1);
+                border-radius: 12px;
+                padding: 7px 10px;
+                width: 180px;
+                height: 42px;
+                line-height: 26px;
+                text-align: center;
+                margin-left: 10px;
+
+                &:hover {
+                    background-color: #fef3e1;
+                }
+            }
+        }
+
+        >.sub-content {
+            position: absolute;
+            top: 140px;
+            left: 0px;
+
+            >h3 {
+                text-align: center;
+                font-size: 26px;
+                color: #ddb991;
+                width: 1200px;
+            }
+
+            >.box-left {
+                width: 420px;
+                height: 536px;
+                border: 5px solid #c9a072;
+                position: absolute;
+                top: 100px;
+
+                >img {
+                    position: absolute;
+                    left: 38px;
+                    top: 22px;
+                    width: 413px;
+                    height: 479px;
+                }
+            }
+
+            >.box-right {
+                position: absolute;
+                left: 500px;
+                top: 140px;
+                width: 480px;
+
+                >h4 {
+                    color: #f6ae35;
+                    font-size: 30px;
+                }
+
+                >span {
+                    display: block;
+                    margin: 15px 0 30px;
+                    color: #8B4513;
+                    font-size: 16px;
+                }
+
+                >p {
+                    //首行缩进
+                    text-indent: 2em;
+                    color: #333333;
+                    line-height: 2;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        >.content-box {
+            position: absolute;
+            left: 60px;
+            top: 900px;
+
+            >ul {
+                >li {
+                    width: 220px;
+                    height: 175px;
+                    float: left;
+                    margin-right: 30px;
+
+                    >img {
+                        display: block;
+                        margin: 0 auto;
+                        width: 76px;
+                        height: 76px;
+                    }
+
+                    >.title {
+                        color: #c9a072;
+                        display: block;
+                        text-align: center;
+                        line-height: 4;
+                    }
+
+                    >.content {
+                        display: block;
+                        text-align: center;
+                        font-size: 14px;
+                        color: #333333;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#footer {
+    top: 1980px;
+}

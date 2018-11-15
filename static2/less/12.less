@@ -1,0 +1,100 @@
+@import 'base.less';
+//广告区域
+body {
+    background-color: rgba(237, 237, 237, 1);
+}
+
+
+/* 主体内容部分 */
+
+#main {
+    position: absolute;
+    overflow: visible;
+    top: 420px;
+    z-index: 105;
+    background-color: #fff;
+    width: 1200px;
+    padding: 20px 20px 0 10px;
+    height: 850px;
+    >.pull-left {
+        >.e_box {
+            width: 240px;
+            margin-top: 20px;
+            >ul {
+                padding: 0;
+                li {
+                    border-left: 2px solid #d9251c;
+                    padding: 7px 8px 7px 10px;
+                    height: 50px;
+                    line-height: 36px;
+                    background-color: #f8f8f8;
+                    border-bottom: 1px solid #f0f0f0;
+                    &:hover {
+                        background-color: #d9251c;
+                        >a {
+                            color: #fff;
+                        }
+                    }
+                    >a {
+                        display: block;
+                        >span {
+                            color: #ccc;
+                            margin-right: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    >.pull-right {
+        width: 913px;
+        >.title {
+            margin-top: 30px;
+            color: #666;
+            >i {
+                color: #194b7f;
+            }
+            >a {
+                color: #194b7f;
+                margin-right: 10px;
+            }
+        }
+        >.content {
+            background-color: #f8f8f8;
+            >.title {
+                padding: 0 15px;
+                border-left: 4px solid #194b7f;
+                border-bottom: 1px solid #f0f0f0;
+                height: 40px;
+                line-height: 40px;
+                h2 {
+                    font-size: 20px;
+                    color: #194b7f;
+                    font-weight: 600;
+                    line-height: 40px;
+                }
+            }
+            >.sub-content {
+                padding: 0 45px;
+                height: 492px;
+                >img {
+                    float: left;
+                    margin-right: 10px;
+                }
+                >p {
+                    font-size: 12px;
+                    line-height: 2;
+                }
+                >.sub-title {
+                    margin-top: 70px;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+#footer {
+    top: 1260px;
+}

@@ -1,0 +1,147 @@
+    @import 'base.less';
+    //广告区域
+    body {
+        background-color: rgba(237, 237, 237, 1);
+    }
+    /* 主体内容部分 */
+    
+    #main {
+        position: absolute;
+        overflow: visible;
+        top: 420px;
+        z-index: 105;
+        background-color: #fff;
+        width: 1200px;
+        padding: 20px 20px 0 10px;
+        height: 950px;
+        >.pull-left {
+            >.e_box {
+                width: 240px;
+                margin-top: 20px;
+                >ul {
+                    padding: 0;
+                    li {
+                        border-left: 2px solid #d9251c;
+                        padding: 7px 10px;
+                        height: 50px;
+                        line-height: 36px;
+                        background-color: #f8f8f8;
+                        &:hover {
+                            background-color: #d9251c;
+                            >a {
+                                color: #fff;
+                            }
+                        }
+                        &:nth-child(2) {
+                            border-top: 1px solid #f0f0f0;
+                            border-bottom: 1px solid #f0f0f0;
+                        }
+                        >a {
+                            float: left;
+                        }
+                        >i {
+                            float: right;
+                            line-height: 36px;
+                            color: #97dcee;
+                            font-size: 20px;
+                        }
+                        .prosmore {
+                            border: 1px solid #ccc;
+                            background-color: #fff;
+                            position: absolute;
+                            left: 250px;
+                            top: 95px;
+                            z-index: 100;
+                            text-align: left;
+                            :hover {
+                                background-color: #d9251c;
+                                color: #fff;
+                            }
+                            >p {
+                                padding: 0px 20px;
+                                width: 200px;
+                                height: 50px;
+                                line-height: 50px;
+                                border-bottom: 1px solid #ccc;
+                            }
+                        }
+                    }
+                }
+            }
+            >.e_box-001 {
+                width: 240px;
+                height: 120px;
+                >ul {
+                    padding: 0;
+                    >li {
+                        width: 240px;
+                        height: 120px;
+                        margin-top: 20px;
+                        a {
+                            display: block;
+                            width: 240px;
+                            >img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        >.pull-right {
+            width: 913px;
+            >.title {
+                margin-top: 30px;
+                color: #666;
+                >i {
+                    color: #194b7f;
+                }
+                >a {
+                    color: #194b7f;
+                    margin-right: 10px;
+                }
+            }
+            >.content {
+                width: 913px;
+                height: 819px;
+                background-color: rgba(248, 248, 248, 1);
+                padding: 30px 20px;
+                >ul {
+                    padding-left: 0;
+                    >li {
+                        padding: 10px 30px 10px 50px;
+                        width: 870px;
+                        height: 94px;
+                        border-top: 1px solid rgba(240, 240, 240, 1);
+                        &:hover {
+                            background-color: #f7625b;
+                            >a {
+                                color: #fff;
+                                >p.content {
+                                    color: #fff;
+                                }
+                            }
+                        }
+                        >a {
+                            width: 100%;
+                            height: 100%;
+                            display: block;
+                            >p.title {
+                                font-size: 16px;
+                                margin: 10px 0;
+                            }
+                            >p.content {
+                                font-size: 14px;
+                                color: rgba(102, 102, 102, 1);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #page {
+            position: absolute;
+            right: 50px;
+            bottom: 7px;
+        }
+    }

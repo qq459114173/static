@@ -1,0 +1,196 @@
+        @import 'base.less';
+        body {
+            background-color: rgba(237, 237, 237, 1);
+        }
+        /* 主体内容区域 */
+        
+        #main {
+            position: absolute;
+            overflow: visible;
+            top: 420px;
+            z-index: 105;
+            background-color: #fff;
+            width: 1200px;
+            padding: 20px 20px 0 10px;
+            height: 2900px;
+            >.pull-left {
+                >.e_box {
+                    width: 240px;
+                    margin-top: 20px;
+                    >ul {
+                        padding: 0;
+                        li {
+                            border-left: 2px solid #d9251c;
+                            padding: 7px 10px;
+                            height: 50px;
+                            line-height: 36px;
+                            background-color: #f8f8f8;
+                            &:hover {
+                                background-color: #d9251c;
+                                >a {
+                                    color: #fff;
+                                }
+                            }
+                            &:nth-child(2) {
+                                border-top: 1px solid #f0f0f0;
+                                border-bottom: 1px solid #f0f0f0;
+                            }
+                            >a {
+                                display: block;
+                                >span {
+                                    color: #ccc;
+                                    margin-right: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+                >.e_box-001 {
+                    width: 240px;
+                    height: 120px;
+                    >ul {
+                        padding: 0;
+                        >li {
+                            width: 240px;
+                            height: 120px;
+                            margin-top: 20px;
+                            a {
+                                display: block;
+                                width: 240px;
+                                >img {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            >.pull-right {
+                width: 913px;
+                >.title {
+                    margin-top: 30px;
+                    color: #666;
+                    >i {
+                        color: #194b7f;
+                    }
+                    >a {
+                        color: #194b7f;
+                        margin-right: 10px;
+                    }
+                }
+                >.content {
+                    padding: 20px 40px;
+                    >.title {
+                        text-align: center;
+                        padding: 10px 5px;
+                        height: 120px;
+                        border-bottom: 1px solid rgba(240, 240, 240, 1);
+                        >h1 {
+                            font-size: 24px;
+                            line-height: 40px;
+                            margin-bottom: 20px;
+                        }
+                        >p {
+                            float: right;
+                            color: #c8c8c8;
+                            font-size: 12px;
+                            i {
+                                margin-right: 5px;
+                            }
+                            span {
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+                    >article {
+                        margin-top: 10px;
+                        white-space: normal;
+                        color: #999999;
+                        overflow: visible;
+                        font-size: 14px;
+                        line-height: 26px;
+                        text-align: left;
+                        vertical-align: top;
+                        word-break: break-all;
+                        background-color: rgba(252, 251, 253, 1);
+                        border: 1px solid rgba(228, 228, 228, 1);
+                        padding: 5px 10px;
+                    }
+                    >#shideshow2 {
+                        position: relative;
+                        width: 833px;
+                        height: 702px;
+                        margin-bottom: 30px;
+                        padding: 10px;
+                        border: 1px solid rgba(228, 228, 228, 1);
+                        .swiper-container {
+                            width: 100%;
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+                        .swiper-slide {
+                            width: 567px!important;
+                            height: 376px;
+                            position: absolute;
+                            left: 50%;
+                            top: 30px;
+                            transform: translateX(-50%);
+                            background-size: cover;
+                            background-position: center;
+                        }
+                        .gallery-top {
+                            height: 80%;
+                            width: 100%;
+                        }
+                        .gallery-thumbs {
+                            height: 20%;
+                            box-sizing: border-box;
+                            padding: 10px 0;
+                            position: relative;
+                        }
+                        .gallery-thumbs .swiper-slide {
+                            position: absolute;
+                            left: 100px;
+                            bottom: 30px;
+                            width: 88px!important;
+                            height: 58px;
+                        }
+                        .gallery-thumbs .swiper-slide-thumb-active {
+                            opacity: 1;
+                        }
+                        .swiper-button-white {
+                            color: rgba(154, 155, 155, 1);
+                            background-color: rgba(154, 155, 155, 1);
+                        }
+                    }
+                    >.sub-content{
+                    	border-bottom:1px solid #f8f8f8;
+                    	>img{
+                    		width: 800px;
+                    		height: 510px;
+                    		display: block;
+                    		margin:0 auto;
+                    	}
+                    	>ul{
+                    		>li{
+                    			margin-top:20px;
+                    			p{
+                    				font-size:14px;
+                    				color:#333;
+                    				line-height: 20px;
+                    				
+                    			}
+                    			p.title{
+                    				font-weight: 600;
+                    				text-align:center;
+                    			}
+                    		}
+                    	}
+                    }
+                }
+            }
+        }
+        
+        #footer {
+            top: 3270px
+        }

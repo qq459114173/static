@@ -1,0 +1,294 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  overflow-x: hidden;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #333333;
+}
+a:hover {
+  text-decoration: none;
+}
+/* 页面版心 */
+.pagebox {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+#nav {
+  height: 90px;
+  background-color: #ffffff;
+  width: 1583px;
+  left: -192px;
+  position: absolute;
+  top: 0;
+  z-index: 102;
+}
+#nav .nav-box {
+  width: 1200px;
+  position: relative;
+  margin: 0 auto;
+}
+#nav .nav-box > .logo {
+  width: 383px;
+  height: 90px;
+}
+#nav .nav-box > .logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#nav .nav-box > .logo a > img {
+  width: 100%;
+}
+#nav .nav-box > #menu {
+  position: absolute;
+  right: 100px;
+  top: 0;
+}
+#nav .nav-box > #menu > ul > li {
+  width: 90px;
+  height: 90px;
+  float: left;
+  line-height: 90px;
+}
+#nav .nav-box > #menu > ul > li > a {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  width: 90px;
+  height: 100%;
+  position: relative;
+}
+#nav .nav-box > #menu > ul > li > a > span {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  left: 0;
+}
+/* 轮播图公共部分 */
+#sideshow {
+  position: absolute;
+  top: 90px;
+  left: -364px;
+  z-index: 105;
+  width: 1920px;
+  height: 330px;
+}
+#sideshow .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+#sideshow .swiper-container .swiper-wrapper {
+  height: 330px;
+  width: 1920px;
+}
+#sideshow .swiper-container a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#sideshow .swiper-container a img {
+  height: 100%;
+  width: 100%;
+}
+/* 尾部公共部分 */
+#footer {
+  width: 1583px;
+  left: -192px;
+  position: absolute;
+  top: 1367px;
+  z-index: 105;
+  height: 150px;
+  background-color: #262834;
+}
+#footer > .content-box {
+  left: 191px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 1200px;
+  height: 150px;
+}
+#footer > .content-box > .pull-left > ul {
+  overflow: hidden;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+#footer > .content-box > .pull-left > ul li {
+  float: left;
+  line-height: 80px;
+  margin-right: 25px;
+}
+#footer > .content-box > .pull-left > ul li > a {
+  color: #fff;
+}
+#footer > .content-box > .pull-left .phone {
+  font-size: 12px;
+  color: #fff;
+}
+#footer > .content-box > .pull-left .site {
+  font-size: 12px;
+  color: #fff;
+}
+#footer > .content-box > .pull-right > ul > li {
+  float: left;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+#footer > .content-box > .pull-right > ul > li > a {
+  display: block;
+  color: #fff;
+  text-align: center;
+}
+#footer > .content-box > .pull-right > ul > li > a > img {
+  width: 106px;
+  height: 106px;
+}
+body {
+  background-color: #ededed;
+}
+/* 主体内容部分 */
+#main {
+  position: absolute;
+  overflow: visible;
+  top: 420px;
+  z-index: 105;
+  background-color: #fff;
+  width: 1200px;
+  padding: 20px 20px 0 10px;
+  height: 950px;
+}
+#main > .pull-left > .e_box {
+  width: 240px;
+  margin-top: 20px;
+}
+#main > .pull-left > .e_box > ul {
+  padding: 0;
+}
+#main > .pull-left > .e_box > ul li {
+  border-left: 2px solid #d9251c;
+  padding: 7px 10px;
+  height: 50px;
+  line-height: 36px;
+  background-color: #f8f8f8;
+}
+#main > .pull-left > .e_box > ul li:hover {
+  background-color: #d9251c;
+}
+#main > .pull-left > .e_box > ul li:hover > a {
+  color: #fff;
+}
+#main > .pull-left > .e_box > ul li:nth-child(2) {
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+}
+#main > .pull-left > .e_box > ul li > a {
+  float: left;
+}
+#main > .pull-left > .e_box > ul li > i {
+  float: right;
+  line-height: 36px;
+  color: #97dcee;
+  font-size: 20px;
+}
+#main > .pull-left > .e_box > ul li .prosmore {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  position: absolute;
+  left: 250px;
+  top: 95px;
+  z-index: 100;
+  text-align: left;
+}
+#main > .pull-left > .e_box > ul li .prosmore :hover {
+  background-color: #d9251c;
+  color: #fff;
+}
+#main > .pull-left > .e_box > ul li .prosmore > p {
+  padding: 0px 20px;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #ccc;
+}
+#main > .pull-left > .e_box-001 {
+  width: 240px;
+  height: 120px;
+}
+#main > .pull-left > .e_box-001 > ul {
+  padding: 0;
+}
+#main > .pull-left > .e_box-001 > ul > li {
+  width: 240px;
+  height: 120px;
+  margin-top: 20px;
+}
+#main > .pull-left > .e_box-001 > ul > li a {
+  display: block;
+  width: 240px;
+}
+#main > .pull-left > .e_box-001 > ul > li a > img {
+  width: 100%;
+}
+#main > .pull-right {
+  width: 913px;
+}
+#main > .pull-right > .title {
+  margin-top: 30px;
+  color: #666;
+}
+#main > .pull-right > .title > i {
+  color: #194b7f;
+}
+#main > .pull-right > .title > a {
+  color: #194b7f;
+  margin-right: 10px;
+}
+#main > .pull-right > .content {
+  width: 913px;
+  height: 819px;
+  background-color: #f8f8f8;
+  padding: 30px 20px;
+}
+#main > .pull-right > .content > ul {
+  padding-left: 0;
+}
+#main > .pull-right > .content > ul > li {
+  padding: 10px 30px 10px 50px;
+  width: 870px;
+  height: 94px;
+  border-top: 1px solid #f0f0f0;
+}
+#main > .pull-right > .content > ul > li:hover {
+  background-color: #f7625b;
+}
+#main > .pull-right > .content > ul > li:hover > a {
+  color: #fff;
+}
+#main > .pull-right > .content > ul > li:hover > a > p.content {
+  color: #fff;
+}
+#main > .pull-right > .content > ul > li > a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+#main > .pull-right > .content > ul > li > a > p.title {
+  font-size: 16px;
+  margin: 10px 0;
+}
+#main > .pull-right > .content > ul > li > a > p.content {
+  font-size: 14px;
+  color: #666666;
+}
+#main #page {
+  position: absolute;
+  right: 50px;
+  bottom: 7px;
+}

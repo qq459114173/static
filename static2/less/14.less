@@ -1,0 +1,119 @@
+@import 'base.less';
+body {
+    background-color: rgba(237, 237, 237, 1);
+}
+
+#main {
+    position: absolute;
+    overflow: visible;
+    top: 420px;
+    z-index: 105;
+    background-color: #fff;
+    width: 1200px;
+    padding: 20px 20px 0 10px;
+    height: 520px;
+    display: flex;
+    >.pull-left {
+        position: relative;
+        flex: 1;
+        >a {
+            float: left;
+        }
+        >.title {
+            margin-top: 30px;
+            color: #666;
+            float: left;
+            >i {
+                color: #194b7f;
+            }
+            >a {
+                color: #194b7f;
+                margin-right: 10px;
+            }
+        }
+        >#sideshow {
+            position: absolute;
+            top: 75px;
+            left: 0px;
+            z-index: 100;
+            width: 579px;
+            height: 400px;
+            a {
+                display: block;
+                width: 579px;
+                height: 400px;
+                >img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .swiper-pagination-bullet {
+                width: 30px;
+                height: 5px;
+                border-radius: 0;
+                background-color: #fff!important;
+                opacity: 1;
+            }
+            .swiper-pagination-bullet-active {
+                background-color: #000!important;
+            }
+        }
+    }
+    >.pull-right {
+        width: 600px;
+        height: 430px;
+        padding: 10px 100px 10px 50px;
+        margin-top: 75px;
+        >.msgForm {
+            span {
+                vertical-align: top;
+                i {
+                    color: #dc8d99;
+                    font-size: 12px;
+                    margin-right: 5px;
+                    vertical-align: top;
+                    font-style: normal;
+                }
+            }
+            textarea {
+                width: 330px;
+                height: 150px;
+                display: inline-block;
+                padding: 0 5px;
+                border-style: solid;
+                resize: none;
+                padding-top: 5px;
+                overflow: auto!important;
+                border-color: #f0f0f0;
+            }
+            >.username,
+            .phone {
+                margin-top: 10px;
+                margin-left: 41px;
+                height: 30px;
+                >input {
+                    width: 330px;
+                    padding: 0 15px;
+                    border: 1px solid #f0f0f0;
+                    height: 30px;
+                    margin-left: 5px;
+                }
+            }
+            >.button {
+                height: 40px;
+                padding: 0 20px;
+                width: 90px;
+                background-color: #194b7f !important;
+                font-size: 18px;
+                color: #fff;
+                line-height: 40px;
+                text-align: center;
+                margin: 15px 0 0 42px;
+            }
+        }
+    }
+}
+
+#footer {
+    top: 940px;
+}
